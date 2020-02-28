@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #bc80ea;
+    border-left: 40px solid #bc80ea;
+    border-right: 40px solid #bc80ea;
+    margin: 10%;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 50px;
+    color: purple;
+}
+
+.checkbox-container {
+    font-size: 12px;
+}
+
+h1 {
+    color: purple;
+    font-family: 'Fredoka One', ;
+}
+
+button {
+	background-color:#dfbdfa;
+	border-radius:5px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:14px;
+	padding: 5px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+button:hover {
+	background-color:#bc80ea;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
